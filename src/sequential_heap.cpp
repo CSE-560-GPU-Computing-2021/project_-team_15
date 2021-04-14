@@ -58,19 +58,3 @@ int CPU_Heap::pop() {
     }
     return key;
 }
-
-// int main(int argc, char *argv[]) {
-//     int n = 5;
-//     if(argc > 1) n = atoi(argv[1]);
-//     CPU_Heap obj(n);
-//     for(int i = 0 ; i < n; i++) {
-//         int x = rand() % 10;
-//         obj.push(x);
-//         cout << x << " ";
-//     }
-//     cout << "\n";
-//     for(int i = 0; i < n ; i++) {
-//         cout << obj.pop() << " ";
-//     }
-//     cout << "\n";
-// }
